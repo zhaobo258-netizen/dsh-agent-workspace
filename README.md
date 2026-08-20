@@ -14,6 +14,18 @@ This is an independent community project and is not affiliated with, endorsed
 by, or sponsored by DeepSeek. “DeepSeek” and “DeepSeek Harness” remain the
 respective owners' trademarks.
 
+## Compatibility
+
+| Component | Verified scope |
+|---|---|
+| Node.js | `22.23.1` |
+| pnpm | `11.9.0` for development and clean installation |
+| Operating system | macOS arm64 development verification |
+| DeepSeek Harness | No adapter is included; this core makes no Host-version compatibility claim |
+
+The module uses only standard Node.js APIs and has no production dependency,
+but other operating systems have not yet been independently verified.
+
 ## Local checks
 
 ```sh
@@ -64,3 +76,6 @@ const approved = approveRecipe(validated, {
 });
 const executable = validateForExecution(activateRecipe(approved));
 ```
+
+See [THREAT_MODEL.md](THREAT_MODEL.md) for the trust boundary and requirements
+that a future runner must enforce.

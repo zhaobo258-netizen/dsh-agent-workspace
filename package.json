@@ -22,7 +22,11 @@
     "dist",
     "LICENSE",
     "NOTICE",
+    "PROVENANCE.md",
+    "SECURITY.md",
+    "THREAT_MODEL.md",
     "THIRD_PARTY_NOTICES.md",
+    "sbom.spdx.json",
     "README.md"
   ],
   "scripts": {
@@ -33,6 +37,7 @@
     "check": "pnpm run lint && pnpm run typecheck && pnpm run test && pnpm run build"
   },
   "devDependencies": {
+    "@types/node": "^22.20.1",
     "eslint": "9.39.1",
     "typescript": "5.9.3"
   }

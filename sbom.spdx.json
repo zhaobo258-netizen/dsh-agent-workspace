@@ -1,0 +1,33 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "dsh-agent-workspace-0.1.0-alpha.1",
+  "documentNamespace": "https://spdx.org/spdxdocs/dsh-agent-workspace-0.1.0-alpha.1-76f643b0",
+  "creationInfo": {
+    "created": "2026-08-20T14:49:23Z",
+    "creators": [
+      "Person: 赵波"
+    ]
+  },
+  "packages": [
+    {
+      "name": "@zhaobo/dsh-agent-workspace",
+      "SPDXID": "SPDXRef-Package",
+      "versionInfo": "0.1.0-alpha.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2026 赵波",
+      "comment": "The distributed package has no production dependencies. Build and test dependencies are excluded from the release artifact and remain locked in pnpm-lock.yaml."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package"
+    }
+  ]
+}

@@ -19,6 +19,8 @@ source material.
 | `src/recipe-core.js` | Original clean-room implementation from behavior requirements | 赵波 | Apache-2.0 | OS-03A |
 | `test/recipe-core.test.mjs` | Original synthetic tests | 赵波 | Apache-2.0 | OS-03A |
 | `test/skeleton.test.mjs` | OS-02 synthetic test, revised for the OS-03A public API | 赵波 | Apache-2.0 | OS-03A |
+| `THREAT_MODEL.md` | Original Recipe-only security analysis | 赵波 | Apache-2.0 | OS-G2 |
+| `sbom.spdx.json` | Generated SPDX 2.3 release inventory | 赵波 | CC0-1.0 metadata | OS-G2 |
 
 No private source file was copied or adapted into these paths. The only source
 inputs were the frozen behavior and safety requirements: constrained read-only
