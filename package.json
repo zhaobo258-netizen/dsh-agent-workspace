@@ -1,0 +1,39 @@
+{
+  "name": "@zhaobo/dsh-agent-workspace",
+  "version": "0.1.0-alpha.1",
+  "description": "A clean-room community workspace skeleton for DSH-compatible agent extensions.",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22 <23",
+    "pnpm": ">=11 <12"
+  },
+  "packageManager": "pnpm@11.9.0",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "NOTICE",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "node --test",
+    "build": "tsc -p tsconfig.json",
+    "check": "pnpm run lint && pnpm run typecheck && pnpm run test && pnpm run build"
+  },
+  "devDependencies": {
+    "eslint": "9.39.1",
+    "typescript": "5.9.3"
+  }
+}

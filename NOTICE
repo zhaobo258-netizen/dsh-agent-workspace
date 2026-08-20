@@ -1,0 +1,8 @@
+DSH Agent Workspace
+Copyright 2026 赵波
+
+This repository is licensed under the Apache License, Version 2.0.
+No third-party source code or private product implementation has been copied
+into the clean-room Recipe core. Dependency notices will be finalized when a
+public release candidate has an approved lockfile and software bill of
+materials.
