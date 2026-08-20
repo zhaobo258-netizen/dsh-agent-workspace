@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.0-alpha.1 - 2026-08-20
 
 - Created the local-only OS-02 clean-room skeleton. No product implementation
   has been imported.

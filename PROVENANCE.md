@@ -28,5 +28,4 @@ verbs, exact-origin enforcement, deterministic definition hashing, lifecycle
 transitions, approval-to-hash binding, and execution-time revalidation.
 
 Future code admission requires a per-file origin, owner, license, and privacy
-record. Until that review is complete, this repository must remain local-only
-and private.
+record. Only reviewed files may enter a public release.

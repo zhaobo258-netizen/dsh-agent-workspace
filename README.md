@@ -6,9 +6,9 @@ with a constrained read-only grammar, deterministic content hashes, lifecycle
 transitions, caller-supplied approval evidence, and one mandatory execution
 validation gate.
 
-The package remains `private: true` and has no configured remote. It is not yet
-published. Future code may be admitted only after source-ledger, privacy,
-licensing, and clean-room review.
+This repository publishes source-only alpha releases. The package remains
+`private: true` to prevent accidental npm publication. Future code may be
+admitted only after source-ledger, privacy, licensing, and clean-room review.
 
 This is an independent community project and is not affiliated with, endorsed
 by, or sponsored by DeepSeek. “DeepSeek” and “DeepSeek Harness” remain the
@@ -32,6 +32,9 @@ but other operating systems have not yet been independently verified.
 pnpm install --frozen-lockfile
 pnpm run check
 ```
+
+The supported release artifact is the GitHub source release. npm installation
+and npm publication are not supported in this alpha.
 
 ## Current scope
 

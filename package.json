@@ -5,6 +5,14 @@
   "private": true,
   "type": "module",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaobo258-netizen/dsh-agent-workspace.git"
+  },
+  "homepage": "https://github.com/zhaobo258-netizen/dsh-agent-workspace#readme",
+  "bugs": {
+    "url": "https://github.com/zhaobo258-netizen/dsh-agent-workspace/issues"
+  },
   "engines": {
     "node": ">=22 <23",
     "pnpm": ">=11 <12"

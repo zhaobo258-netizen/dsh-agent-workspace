@@ -5,15 +5,14 @@ vendor access details to this repository.
 
 ## Supported versions
 
-No public version is supported yet. `0.1.0-alpha.1` is a local release
-candidate and must not be treated as a production security boundary.
+`0.1.0-alpha.1` is the current source-only alpha. Security fixes are provided
+on a best-effort basis until a later version supersedes it. This alpha must not
+be treated as a production security boundary.
 
 ## Reporting
 
-After the GitHub repository is created, use its private vulnerability reporting
-or Security Advisory flow. Do not disclose a suspected vulnerability in a
-public issue. The reporting route must be enabled and tested before the
-repository is made public.
+Use this repository's private vulnerability reporting or Security Advisory
+flow. Do not disclose a suspected vulnerability in a public issue.
 
 The package does not execute Recipes. Its security guarantees and non-goals are
 defined in [THREAT_MODEL.md](THREAT_MODEL.md).
